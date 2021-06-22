@@ -1,10 +1,10 @@
-#Game of Life
+# Game of Life
 
-##Definition
+## Definition
 The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of
 which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbors, which
 are the cells that are horizontally, vertically, or diagonally adjacent.
-##Rules
+## Rules
 At each step in time, the following transitions occur:
 1. Any live cell with fewer than two live neighbors dies as if caused by underpopulation.
 2. Any live cell with two or three live neighbors lives on to the next generation.
@@ -16,11 +16,11 @@ At each step in time, the following transitions occur:
    pure function of the preceding one). The rules continue to be applied repeatedly to create further
    generations. 
    
-##Objectives
+## Objectives
 1. Implement the game of life data structures and algorithm.
 2. Demonstrate that game of life algorithm works. 
    
-##Hints
+## Hints
 1. To demonstrate that the program works you can print out the state of the universe to the
    console/output after each generation. There is no need to build a custom UI.
     
@@ -32,9 +32,9 @@ At each step in time, the following transitions occur:
 ![img.png](img.png)
 
 
-###Sample Output
-####Original State Of Life In Universe
-#####Life In Universe On Step: 0
+### Sample Output
+#### Original State Of Life In Universe
+##### Life In Universe On Step: 0
 
 1 0 1 0 1
 
@@ -51,7 +51,7 @@ Do you want to proceed with next step of life in universe?
 2. Type 'exit' to stop
 
 
-#####Life In Universe On Step: 1
+##### Life In Universe On Step: 1
 
 0 1 1 0 1
 
@@ -68,7 +68,7 @@ Do you want to proceed with next step of life in universe?
 2. Type 'exit' to stop
 
 
-#####Life In Universe On Step: 2
+##### Life In Universe On Step: 2
 
 0 1 1 0 0
 
@@ -85,7 +85,7 @@ Do you want to proceed with next step of life in universe?
 2. Type 'exit' to stop
 
 
-#####Life In Universe On Step: 3
+##### Life In Universe On Step: 3
 
 0 1 1 0 0
 
@@ -102,7 +102,7 @@ Do you want to proceed with next step of life in universe?
 2. Type 'exit' to stop
 
 
-#####Life In Universe On Step: 4
+##### Life In Universe On Step: 4
 
 0 0 1 0 0
 
@@ -119,7 +119,7 @@ Do you want to proceed with next step of life in universe?
 2. Type 'exit' to stop
 
 
-#####Life In Universe On Step: 5
+##### Life In Universe On Step: 5
 
 0 0 0 0 0
 
@@ -138,4 +138,4 @@ Do you want to proceed with next step of life in universe?
 
 exit
 
-#####Game Of Life Stopped...
+##### Game Of Life Stopped...
