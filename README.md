@@ -34,7 +34,7 @@ At each step in time, the following transitions occur:
 
 ### Sample Output
 #### Original State Of Life In Universe
-##### Life In Universe On Step: 0
+#### Life In Universe On Step: 0
 
 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
@@ -94,7 +94,13 @@ At each step in time, the following transitions occur:
 After Step: 99
 ........
 
-Life In Universe On Step: 99
+
+
+
+
+#### Life In Universe On Step: 99
+
+
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
