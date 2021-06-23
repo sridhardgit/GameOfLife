@@ -36,7 +36,7 @@ public class GameOfLife{
      * Method to initialize lifeInUniverse with given row and column count.
      * If row or column is not valid index, then throw illegal argument exception.
      * With valid row and column count, method should initialize Two Dimensional Array
-     * and assign random seed to the lifeInUniverse and print it.
+     * and assign default seed to the lifeInUniverse.
      * @param row - initial row count of the lifeInUniverse
      * @param col - initial column count of the lifeInUniverse
      * @throws IllegalArgumentException - Throw error if row or column is invalid
@@ -48,15 +48,22 @@ public class GameOfLife{
         this.rowCount = row;
         this.colCount = col;
         lifeInUniverse = new int[rowCount][colCount];
-        for(int i = 0; i < rowCount ; i++){
-            for(int j = 0; j < colCount; j++){
-                lifeInUniverse[i][j] = (int)Math.round( Math.random());
+
+    }
+
+    /**
+     * This method will assign glider pattern to lifeOfUniverse matrix and print intial state.
+     * @param gliderPattern
+     */
+    public void initializeGlider(int[][] gliderPattern){
+        for(int i = 0; i< gliderPattern.length; i++){
+            for(int j = 0; j < gliderPattern[i].length; j++){
+                lifeInUniverse[i][j] = gliderPattern[i][j];
             }
         }
         System.out.println("Original State Of Life In Universe");
         printLifeInUniverse();
     }
-
     /**
      * Method to display next step of life In Universe.
      */
