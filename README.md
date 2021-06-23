@@ -86,13 +86,13 @@ At each step in time, the following transitions occur:
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-.
-.
-.continue with step
-.
-.
-After Step: 99
-........
+###.
+###.
+##continue with steps
+###.
+###.
+###After Step: 99
+####........
 
 
 
@@ -157,4 +157,6 @@ Do you want to proceed with next step of life in universe?
  2. Type 'exit' to stop
 
 exit
+
+
 Game Of Life Stopped...
